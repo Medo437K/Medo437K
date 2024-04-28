@@ -1,0 +1,15 @@
+# Terminalumgebungsänderungen
+
+## Erweiterung: GitHub.codespaces
+
+- `CODESPACE_VSCODE_FOLDER=/workspaces/codespaces-jupyter`
+
+## Erweiterung: vscode.git
+
+Folgende Features werden aktivieren: git auth provider
+
+- `GIT_ASKPASS=/vscode/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh`
+- `VSCODE_GIT_ASKPASS_NODE=/vscode/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node`
+- `VSCODE_GIT_ASKPASS_EXTRA_ARGS=`
+- `VSCODE_GIT_ASKPASS_MAIN=/vscode/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js`
+- `VSCODE_GIT_IPC_HANDLE=/tmp/vscode-git-1ac297ab45.sock`
